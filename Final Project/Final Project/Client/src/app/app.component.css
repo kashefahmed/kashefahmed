@@ -1,0 +1,17 @@
+
+header{
+    display: flex;
+    background-color: cadetblue;
+    align-items: center;
+    height: 10vh;
+    color: aliceblue;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    width: 60%;
+}

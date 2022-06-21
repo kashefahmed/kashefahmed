@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <p class="logo">Angular and Express API</p>
+  </header>
+  <h1>My Posts</h1>
+  <div *ngFor="let post of posts" class="post">
+    <p>{{post.title}}</p>
+    <p>{{post.body}}</p>
+
+  </div>
+  
+</body>
+</html>
